@@ -20,21 +20,16 @@ public class Pets {
         return name2;
     }
 
-    // Method
-    public void showName() { // Code to show object's current status (just a name)
-        System.out.println("Pet Information:");
-        System.out.println("Name: " + name1);
-    }
-
     // Main method (for demonstration)
     public static void main(String[] args) {
         // Creating an object of Pets
         Pets Pet1 = new Pets("Joe Biden");
         Pets Pet2 = new Pets("");
-        Pet1.showName(); // Calling a method on the object
-
         Pet2.setPetName("Trump");
-        System.outprintln("");
+
+        System.out.println("Pet Information:");
+        System.out.println("Name: " + Pet1.name1);
+        System.out.println("");
         System.out.println("Pet Information:");
         System.out.println("Name: " + Pet2.getPetName());
     }
