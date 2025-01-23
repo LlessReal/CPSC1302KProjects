@@ -1,24 +1,23 @@
-// Here are where you bring in
-import java.util.ArrayList;
-
-
 public class Pets {
     // Fields
-    private String name1;
-    private String name2;
+    private String name;
 
     // Constructor
     public Pets(String name) {
-        this.name1 = name;
+        this.name = name;
     }
 
-    public void setPetName(String name) {
-        this.name2 = name;
+    public void setPetName(String thenewname) {
+        this.name = thenewname;
     }
 
     public String getPetName() {
-        return name2;
+        return this.name;
     }
+    public String toString() {
+        String TheName = "Name: " + this.name;
+        return TheName;
+    } // toString() override
 
     // Main method (for demonstration)
     public static void main(String[] args) {
@@ -28,9 +27,9 @@ public class Pets {
         Pet2.setPetName("Trump");
 
         System.out.println("Pet Information:");
-        System.out.println("Name: " + Pet1.name1);
+        System.out.println("Name: " + Pet1.getPetName());
         System.out.println("");
         System.out.println("Pet Information:");
-        System.out.println("Name: " + Pet2.getPetName());
+        System.out.println(Pet2);
     }
 }
