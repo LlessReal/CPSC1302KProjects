@@ -30,12 +30,13 @@ public class Tests {
 
     // Set new values
     public void setScore(int newScore) {
+        this.count++;
         this.score = newScore;
+        this.ave = (double) this.score / (double) this.count;
     }
 
     //
-    public static void getAverage(int testscoresum, int testscorecount) {
-        double AverageSoFar = (double) testscoresum / (double) testscorecount;
-        System.out.println("Current average of test scores: " + AverageSoFar);
+    public void getAverage() {
+        System.out.println("Current average of test scores: " + this.ave);
     }
 }
