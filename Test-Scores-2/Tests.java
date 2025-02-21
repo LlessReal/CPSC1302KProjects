@@ -30,8 +30,8 @@ public class Tests {
 
     // Set new values
     public void setScore(int newScore) {
-        this.count++;
-        this.score = newScore;
+        this.score = newScore; // Get the new score
+        this.count++; // Up the count
         this.ave = (double) this.score / (double) this.count;
     }
 

@@ -4,8 +4,8 @@ public class Runner {
     public static void main(String[] args) {
         Scanner testscoregetter = new Scanner(System.in); // New scanning system
         Tests testscoreobject = new Tests();
-        int TestScore = testscoreobject.getScore();
-        int TestCount = testscoreobject.getCount();
+        int TestScore = 0;
+        int TestCount = 0;
         while (true) {
             System.out.println("What is the score for test " + (testscoreobject.getCount() + 1) + "?" + " Input -1 to quit.");
             // Asks score for each test score depending on what test # we're on
