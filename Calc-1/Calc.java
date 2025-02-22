@@ -27,6 +27,7 @@ public class Calc {
     public double subtract() {
         return this.firstnum - this.secondnum;
     }
+
     public double multiply() {
         return this.firstnum * this.secondnum;
     }
