@@ -22,11 +22,13 @@ public class IntArray {
         }
 
     }
+    // Gets index that's asked for
     public int get(int element) {
         return this.myArray[element];
     }
 
     public boolean isEmpty() {
+        // true if no items are in the list and false if otherwiise
         if (this.myArray.length == 0) {
             return true;
         }
@@ -36,13 +38,16 @@ public class IntArray {
     }
 
     public void set(int element, int newValue) {
+        // Changes index item to new value
         this.myArray[element] = newValue;
 
     }
+
+    // Returns length of array
     public int size() {
         return this.myArray.length;
     }
-
+    // Sort Array
     public void sort() {
         Arrays.sort(this.myArray);
     }
