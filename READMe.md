@@ -10,6 +10,9 @@
 ### Module 4 
 <br> Calc, Reverse Engineering (Part 1)
 <br> Calc, Reverse Engineering (Part 2) | Fail-proofing
+### Module 5
+<br> IntArray Sort 
+<br> ArrayList Class
 
 
 ### Links
