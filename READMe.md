@@ -13,6 +13,10 @@
 ### Module 5
 <br> IntArray Sort 
 <br> ArrayList Class
+### Module 6
+<br> Inheritance (Part 1)
+### Module 7 
+<br> Inheritance (Part 2) | Fail-proofing
 
 
 ### Links
