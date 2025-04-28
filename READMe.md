@@ -17,6 +17,12 @@
 <br> Inheritance (Part 1)
 ### Module 7 
 <br> Inheritance (Part 2) | Fail-proofing
+### Module 8
+<br> Reading a CSV File
+### Module 9
+<br> Recursion
+### Module 10 
+<br> Spring Lab
 
 
 ### Links
