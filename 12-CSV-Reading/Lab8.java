@@ -28,7 +28,6 @@ public class Lab8 {
         }
         DecimalFormat df = new DecimalFormat("##.##"); // Initalize formatter
         String FinalTotalWeeklyPay = "$" + df.format(TotalWeeklyPay); // Rounds double and adds $ behind it.
-        System.out.println(FinalTotalWeeklyPay);
         for (String i : CurrentArray) { AddedData += i + ",";}
         AddedData += FinalTotalWeeklyPay;
         return AddedData + "\n";
