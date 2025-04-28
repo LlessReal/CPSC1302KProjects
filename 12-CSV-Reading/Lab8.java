@@ -3,6 +3,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Scanner;
 import java.util.Arrays;
+import java.text.DecimalFormat;
 
 public class Lab8 {
     // Function that will add string data in commas to a data table
@@ -25,7 +26,9 @@ public class Lab8 {
         if (IntHoursWorked > 40) {
             TotalWeeklyPay += ((IntHoursWorked - 40) * (IntPayRate / 2));
         }
-        String FinalTotalWeeklyPay = Double.toString(TotalWeeklyPay);
+        DecimalFormat df = new DecimalFormat("##.##"); // Initalize formatter
+        String FinalTotalWeeklyPay = "$" + df.format(TotalWeeklyPay); // Rounds double and adds $ behind it.
+        System.out.println(FinalTotalWeeklyPay);
         for (String i : CurrentArray) { AddedData += i + ",";}
         AddedData += FinalTotalWeeklyPay;
         return AddedData + "\n";
